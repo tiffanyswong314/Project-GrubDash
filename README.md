@@ -5,12 +5,12 @@
 
 This project will test your ability to build APIs with complex validation.
 To succeed at this project, you'll need to demonstrate that you can do the following:
-    - Run tests from the command line.
-    - Use common middleware packages.
-    - Receive requests through routes.
-    - Access relevant information through route parameters.
-    - Build an API following RESTful design principles.
-    - Write custom middleware functions.
+- Run tests from the command line.
+- Use common middleware packages.
+- Receive requests through routes.
+- Access relevant information through route parameters.
+- Build an API following RESTful design principles.
+- Write custom middleware functions.
 You will not need to make any edits to HTML or CSS for this project.
 
 ## GrubDash frontend
