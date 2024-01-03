@@ -18,16 +18,6 @@ While it is not required, if you would like to see this project connected to a f
 ![Starter Code: GrubDash Front End](https://github.com/Thinkful-Ed/starter-grub-dash-front-end)
 Instructions on how to get the frontend application up and running are included in the repository.
 ![Home Screen of GrubDash Front End](https://res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/1fc7f916e2146e659f7934a73b103e25-home.png)
-Again, it is not necessary to connect the frontend to successfully complete this project.
-
-## Project setup
-Follow the instructions below to get this project up and running on your own machine:
-    - Download the Qualified assessment files to your computer.
-    - Run npm install to install the project and run git init to initialize a Git repository.
-
-## Running tests
-To run the tests, you can run the following command:
->npm test
 
 ## Instructions
 Your goal for this lesson is to get the tests to pass.
@@ -54,8 +44,8 @@ Your server should follow the structure that you've learned in the program. Comp
 | test/make-test-app.js	            | Function used by the tests. You will not need to make changes to this file.                           |
 
 ## Tasks
-    1. In the src/dishes/dishes.controller.js file, add handlers and middleware functions to create, read, update, and list dishes. Note that dishes cannot be deleted.
-    2. In the src/dishes/dishes.router.js file, add two routes: /dishes, and /dishes/:dishId and attach the handlers (create, read, update, and list) exported from src/dishes/dishes.controller.js.
-    3. In the src/orders/orders.controller.js file, add handlers and middleware functions to create, read, update, delete, and list orders.
-    4. In the src/orders/orders.router.js file, add two routes: /orders, and /orders/:orderId and attach the handlers (create, read, update, delete, and list) exported from src/orders/orders.controller.js.
-    5. Anytime you need to assign a new id to an order or dish, use the nextId function exported from src/utils/nextId.js
+- In the src/dishes/dishes.controller.js file, add handlers and middleware functions to create, read, update, and list dishes. Note that dishes cannot be deleted.
+- In the src/dishes/dishes.router.js file, add two routes: /dishes, and /dishes/:dishId and attach the handlers (create, read, update, and list) exported from src/dishes/dishes.controller.js.
+- In the src/orders/orders.controller.js file, add handlers and middleware functions to create, read, update, delete, and list orders.
+- In the src/orders/orders.router.js file, add two routes: /orders, and /orders/:orderId and attach the handlers (create, read, update, delete, and list) exported from src/orders/orders.controller.js.
+- Anytime you need to assign a new id to an order or dish, use the nextId function exported from src/utils/nextId.js
